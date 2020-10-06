@@ -1,0 +1,12 @@
+TAREA 21
+
+hemos creado un algoritmo para resolver el siguiente problema: Un programa que dado un número introducido entre 0,0001 y 0,9999 (no más de 4 cifras decimales),
+obtenga y muestre la correspondiente fracción irreducible.
+
+Hemos dado la posibilidad de poder introducir números con . O ,. Es decir, podemos introducir tanto 0.12 o 0,12. 
+Ademas del resultado de la la fracción, mostramos cuantas veces se ejecuta el bucle while.
+
+Hemos utilizado dos lenguajes de programación: python y php.
+
+Para utilizar php, hemos creado un archivo html paran introducir el numero que se procesará en result.php.
+

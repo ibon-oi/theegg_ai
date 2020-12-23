@@ -1,0 +1,51 @@
+- Vaca 1 de 20 kilos que produce 20 litros
+- Vaca 2 de 10 kilos que produce 15 litros
+- Vaca 3 de 15 kilos que produce 40 litros
+- Vaca 4 de 45 kilos que produce 100 litros
+- Vaca 5 de 60 kilos que produce 150 litros
+
++--------+------+----------------+
+| Número | Peso | Cantidad leche | 
++--------+------+----------------+
+|   1    |  20  |       20       |
+|   2    |  10  |       15       |
+|   3    |  15  |       40       |
+|   4    |  45  |       100      |
+|   5    |  60  |       150      |
++--------+------+----------------+
+
+Produccion maxima de leche: 330
+Peso a llevar: 80 ; Peso maximo: 150
++--------+------+----------------+
+| Número | Peso | Cantidad leche | 
++--------+------+----------------+
+|   1    |  20  |       20       |
+|   3    |  15  |       15       |
+|   4    |  45  |       100      |
++--------+------+----------------+
+
+- Vaca 1 de 100 kilos que produce 10 litros
+- Vaca 2 de 10 kilos que produce 1 litros
+- Vaca 3 de 18 kilos que produce 40 litros
+- Vaca 4 de 500 kilos que produce 500 litros
+- Vaca 5 de 60 kilos que produce 200 litros
+
++--------+------+----------------+
+| Número | Peso | Cantidad leche | 
++--------+------+----------------+
+|   1    |  100 |      10        |
+|   2    |  10  |      1         |
+|   3    |  18  |      40        |
+|   4    |  500 |      500       |
+|   5    |  60  |      200       |
++--------+------+----------------+
+
+Produccion maxima de leche: 751
+Peso a llevar: 78 ; Peso maximo: 688
+
++--------+------+----------------+
+| Número | Peso | Cantidad leche | 
++--------+------+----------------+
+|   3    |  18  |      40        |
+|   5    |  60  |     200        |
++--------+------+----------------+

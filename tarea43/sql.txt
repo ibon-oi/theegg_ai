@@ -1,0 +1,34 @@
+1. Mostrar los datos de todas las columnas de la tabla mailing_list:
+SELECT * FROM mailing_list;
+
+2. Mostrar los datos de las columnas UserName y Name de la tabla members:
+SELECT UserName, Name FROM members;
+
+3. Mostrar los datos de las columnas AccessTime, NumberOfDownloads y LastName de la tabla users
+SELECT AccessTime, NumberOfDownloads, LastName FROM users; 
+
+4. Mostrar los datos de la columna NumberOfComments sin duplicados de la tabla subscribers:
+SELECT DISTINCT NumberOfComments FROM subscribers;
+
+5. Mostrar los datos de todas las columnas de la tabla subscribers ordenados de forma ascendente por la columna Name:
+SELECT * FROM subscribers ORDER BY Name ASC;
+
+6. Mostrar los datos de todas las columnas de la tabla members ordenados de forma descendente por la columna NumberOfComments:
+SELECT * FROM members ORDER BY NumberOfComments DESC;
+
+7. Mostrar los datos de las columnas FamilyName, NumberOfKids y Email de la tabla mailing_list ordenados de forma
+descendente por la columna NumberOfKids sin duplicados:
+SELECT DISTINCT FamilyName, NumberOfKids, Email FROM mailing_list ORDER BY NumberOfKids DESC;
+
+8. Mostrar los datos de las columnas FirstName y LastAccess  de la tabla users ordenados primero por la columna LastAccess
+de forma ascendente y luego por la columna FirstName de forma descendente:
+SELECT FirstName, LastAccess FROM users ORDER BY LastAccess ASC, FirstName DESC;
+
+9. Mostrar los datos de las columnas de los 3 primeros de la tabla subscribers ordenada primero por la columna Name
+de forma ascendente y luego por la columna Address de forma ascendente:
+SELECT * FROM subscribers ORDER BY Name ASC, Address ASC LIMIT 3;
+
+10. Mostrar los datos de las columnas SurName y LastAccess de los primeros 3 registros de la tabla
+ users ordenados primero por la columna SurName de forma descendente y luego por la columna
+LastAccess de forma descendente sin duplicados.
+SELECT DISTINCT SurName, LastAccess FROM users ORDER BY LastAccess DESC, SurName DESC LIMIT 3;

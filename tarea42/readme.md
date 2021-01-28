@@ -6,4 +6,5 @@ Tareas a realizar:
 
 Hemos utilizado: HTML 5, CSS3, JQuery, Bootstrap.
 
-Hacer click en Mostra y Ocultar
+JQuery: Hacer click en Mostrar y Ocultar para leer y ocultar el texto restante.
+Los botones Mostrar y Ocultar se alternarán.

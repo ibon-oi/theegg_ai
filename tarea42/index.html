@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title> Tarea 42 </title>
+        <meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script type="text/javascript">
+		
+		$(document).ready(function(){
+			$("#hide").on('click', function() {
+				$("#element").hide();
+				$("#show").show();
+				$("#hide").hide();
+				
+				return false;
+			});
+			$("#hide1").on('click', function() {
+				$("#element1").hide();
+				$("#show1").show();
+				$("#hide1").hide();
+				
+				return false;
+			});
+			$("#hide2").on('click', function() {
+				$("#element2").hide();
+				$("#show2").show();
+				$("#hide2").hide();
+				
+				return false;
+			});
+			$("#hide3").on('click', function() {
+				$("#element3").hide();
+				$("#show3").show();
+				$("#hide3").hide();
+				
+				return false;
+			});
+		 
+			$("#show").on('click', function() {
+				$("#element").show();
+				$("#show").hide();
+				$("#hide").show();
+				return false;
+			});
+			$("#show1").on('click', function() {
+				$("#element1").show();
+				$("#show1").hide();
+				$("#hide1").show();
+				return false;
+			});
+			$("#show2").on('click', function() {
+				$("#element2").show();
+				$("#show2").hide();
+				$("#hide2").show();
+				return false;
+			});
+			$("#show3").on('click', function() {
+				$("#element3").show();
+				$("#show3").hide();
+				$("#hide3").show();
+				return false;
+			});
+		});
+		</script>
+    </head>
+    <body>
+		<main role="main" class="container">
+			<div class="jumbotron">
+				<div class="container">
+					<h1 class="display-4 titulo">Tarea 42</h1>
+					<p>Hemos utilizado: HTML 5, CSS3, JQuery, Bootstrap.</p>
+				</div>
+			</div>
+	   <hr>
+
+      <div class="container">
+		<div class="row">
+			<h1 class="titulo">Breve historia de HTML</h1>
+			<div class="col" id="first">
+				<h2>1</h2>
+				<p>En la época que se empezó a introducir Internet en nuestros hogares las páginas web eran de contenido estático.</p> 
+				<p id="element" style="display: none;" >Páginas sin dinamismo alguno. Solían ser visualmente muy irritantes (no todas) y
+					para cada contenido nuevo se necesitaban nuevos ficheros. El webmaster (como se conocía en aquel entonces a los desarrolladores web), añadía contenido a mano. Para saltar de un contenido a otro se
+					necesitaba rehacer todo por completo. Eran aplicaciones de frontend sin apenas backend. </p>
+				<p><a class="btn btn-primary" href="#" id="show"><i class="fa fa-eye"></i> Mostrar</a></p>
+				<p><a class="btn btn-danger" href="#" id="hide" style="display: none;"><i class="fa fa-eye"  ></i> Ocultar</a></p>
+			</div>
+			<div class="col" id="second">
+				<h2>2</h2>
+				<p>Comienzan a proliferar las bases de datos y los lenguajes de programación de backend (php pegó muy fuerte), y con esto, surgen los inicios de sesión, los buscadores, las actualizaciones de contenido sin necesidad de replicar todo por completo... nacen las páginas web dinámicas.</p>
+				<p id="element1" style="display: none;" >El usuario pedía una información, el backend hacía la petición en la base de datos y enviaba de vuelta la respuesta. Era algo MÁGICO! Se empezaron a construir webs dinámicas y estas se convirtieron en
+				canales de interacción con el usuario. Dejaron de ser canales de comunicación unidireccional y de consumo de información. Ahora el usuario podía participar activamente en la generación de contenido y la bidireccionalidad estaba omnipresente.
+				PERO... tenían un gran problema!!! Cada vez que un usuario pedía nueva información la página se tenía que actualizar por completo. El flujo de información era síncrono. Ejemplo: Imagina por un momento que cada vez que te entra un nuevo texto por whatsapp la aplicación
+				se tiene que refrescar por completo para enseñarte el nuevo mensaje.</p>
+				<p><a class="btn btn-primary" href="#" id="show1"><i class="fa fa-eye"></i> Mostrar</a></p>
+				<p><a class="btn btn-danger" href="#" id="hide1" style="display: none;"><i class="fa fa-eye"  ></i> Ocultar</a></p>
+			</div>
+			<div class="col" id="third">
+				<h2>3</h2>
+				<p>Nace la web 2.0. Una revolución que trajo las grandes redes sociales tal y como las conocemos hoy en día.</p> 
+				<p id="element2" style="display: none;" >El nacimiento de páginas web muy dinámicas donde el usuario podía interactuar mucho con la aplicación web realizando múltiples peticiones al servidor sin que esta se sobrecargase. El efecto en el
+				navegador era y es espectacular, ya que únicamente se refrescaba la información que era objeto de interés. Ejemplo: Cuando un usuario hace click en un LIKE de facebook únicamente se actualiza el valor del LIKE
+				y el resto de la página permanece inmutable. Esta nueva técnica de comunicarse con el servidor se conoce con el acrónimo de AJAX y es una de las grandes culpables del gran avance de Internet en la última década. Las comunicaciones asincronas en las aplicaciones web llegaron para quedarse.</p>
+				<p><a class="btn btn-primary" href="#" id="show2"><i class="fa fa-eye"></i> Mostrar</a></p>
+				<p><a class="btn btn-danger" href="#" id="hide2" style="display: none;"><i class="fa fa-eye"  ></i> Ocultar</a></p>
+			</div>
+			<div class="col" id="fourth">
+				<h2>4</h2>
+				<p>El último gran cambio llega con la versión HTML5 gracias a sus API-s. Se pueden realizar operaciones en el cliente que hasta hace poco eran impensables. </p>
+				<p id="element3" style="display: none;" >Desde el propio navegador se puede trabajar con audio y video (antes todo esto se hacía en la mayoría de las ocasiones con flash), guardar datos en el navegador (bases de datos en el propio navegador? Uauuu!!!), realizar videoconferencias de
+				cliente a cliente sin necesidad de instalar complementos, diseñar formularios muy avanzados con unas pocas etiquetas, ... Estas nuevas capacidades de los navegadores son posibles gracias a la última versión HTML5 junto con Javascript y CSS.</p>
+				<p><a class="btn btn-primary" href="#" id="show3"><i class="fa fa-eye"></i> Mostrar</a></p>
+				<p><a class="btn btn-danger" href="#" id="hide3" style="display: none;"><i class="fa fa-eye"  ></i> Ocultar</a></p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-6 mitad">
+				<video id="miVideo" width="400" height="400" controls><source src="203_0647.mp4" type="video/mp4" ></video>
+			</div>
+			<div class="col-6 mitad">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<footer>
+				<div class="pie">
+					Ibon Olabarria Iñarra
+				</div>
+			</footer>
+		</div>
+    </main>
+    </body>
+</html>

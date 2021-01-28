@@ -1,0 +1,25 @@
+body {
+  padding-top: 2rem;
+}
+#first{
+	background-color:#F9DAD3;
+}
+#second{
+	background-color:#D3F9D5;
+}
+#third{
+	background-color:#D3F9F9;
+}
+#fourth{
+	background-color:#F8F9D3;
+}
+.mitad{
+	background-color:#D5D5D5;
+}
+.pie ,.titulo{
+	background-color: #fafafa;
+	margin: 1rem;
+	padding: 1rem;
+	border: 2px solid #ccc;
+	text-align: center;
+}
